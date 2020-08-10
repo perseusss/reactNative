@@ -7,7 +7,7 @@ import AppNews from './AppNews';
  export class App extends Component{
 
   render(){
-        const news = [
+        var news = [
       {
           title  : "FORD MUSTANG ",
           description :"Daha benzersiz, daha yüksek performansa sahip ve daha yenilikçi Yeni Mustang deneyimine hazır olun. Çünkü efsane şimdi bir başka."
@@ -22,22 +22,26 @@ import AppNews from './AppNews';
       }
       
       ];
-    return(
-      <View style = {styles.container}>
-
-     <AppNews 
-              title = {news[0].title}
-              description = {news[0].description} />
-     <AppNews 
-              title = {news[1].title}
-              description = {news[1].description} />
-     <AppNews 
-              title = {news[2].title}
-              description = {news[2].description} />
+      const newArr = news.map(newItem => newItem.title);
+      const secondArr = news.map(secondItem => secondItem.description);
+   
       
-      </View>
+      return(
+        
+        <View style = {styles.container}>
+          <AppNews
 
-    )
+          title = {newArr}
+          description = {secondArr}
+
+
+          />
+        </View>
+      )
+    
+     
+     
+    
   }
   }
   export default App;
@@ -50,7 +54,7 @@ import AppNews from './AppNews';
       flex : 1,
       flexDirection: 'column',
       paddingTop: 90,
-      paddingLeft:30,
+      paddingLeft:20,
     },
     headerTxt:{
       paddingLeft:130,

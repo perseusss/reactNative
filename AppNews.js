@@ -7,11 +7,11 @@ class AppNews extends Component{
     render(){
         return(
           <View >
-          
-          <Text>{this.props.title}</Text>
-          <View style={styless.contentWrapper}></View>
-        <Text>{this.props.description}</Text>
-        <View style={styless.spaceBetween}></View>
+            
+            <Text>{this.props.title}</Text>
+            <View style={styless.contentWrapper}></View>
+            <Text>{this.props.description}</Text>
+            <View style={styless.spaceBetween}></View>
 
           </View>
         )
@@ -20,14 +20,16 @@ class AppNews extends Component{
 export default AppNews;
 
 const styless = StyleSheet.create({
+ 
     contentWrapper:{
-        padding:1,
-        flexDirection:'column',
-        justifyContent:'center',
-        shadowColor:'black',
-        shadowOffset:{width: 1 , height:2},
-        shadowOpacity:0.5,
-        backgroundColor: 'black'
+      
+      padding:1,
+      flexDirection:'column',
+      justifyContent:'center',
+      shadowColor:'black',
+      shadowOffset:{width: 1 , height:2},
+      shadowOpacity:0.5,
+      backgroundColor: 'black'
        },
        spaceBetween:{
         padding:20,
