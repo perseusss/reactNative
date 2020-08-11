@@ -18,25 +18,21 @@ import AppNews from './AppNews';
       },
       {
         title : "PORSCHE",
-        description:"Bu alıntı, Porsche'yi Porsche yapan her şeyin kalbine ulaşır. Bir marka olarak, bir firma olarak ve bir otomobil üreticisi olarak. 65 yıldan uzun süredir, bize yol gösteren yıldızımız oldu. Çalışmalarımızın ve araçlarımızın karakterini belirleyen tüm değerleri kapsar. Bu nedenle, bunu en iyi açıklayabilecek kişinin, Porsche adını taşıyan ilk spor otomobilin yaratıcısından başkası olamayacağına şaşırmaya gerek yok: Ferdinand Anton Ernst – veya kısaca, Ferry Porsche."
+        description:"Bu alıntı, Porsche'yi Porsche yapan her şeyin kalbine ulaşır. Bir marka olarak, bir firma olarak ve bir otomobil üreticisi olarak. 65 yıldan uzun süredir, bize yol gösteren yıldızımız oldu. Çalışmalarımızın ve araçlarımızın karakterini belirleyen tüm değerleri kapsar. Bu nedenle, bunu en iyi açıklayabilecek kişinin, Porsche adını taşıyan ilk spor otomobilin yaratıcısından başkası olamayacağına şaşırmaya gerek yok: Ferdinand Anton Ernst – veya kısaca, Ferry "
       }
       
       ];
-      const newArr = news.map(newItem => newItem.title);
-      const secondArr = news.map(secondItem => secondItem.description);
+      
    
       
       return(
-        
+       
         <View style = {styles.container}>
           <AppNews
-
-          title = {newArr}
-          description = {secondArr}
-
-
+        news = {news}
           />
         </View>
+        
       )
     
      
