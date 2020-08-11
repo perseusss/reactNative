@@ -10,7 +10,9 @@ class AppNews extends Component{
           <View style = {styless.AllText}>
 
            {this.props.news.map(news =>
-            <NewsItem title={news.title}
+            <NewsItem 
+                      key={news.id}
+                      title={news.title}
                       description={news.description}  />                         
                                           )}
           </View>

@@ -9,16 +9,19 @@ import AppNews from './AppNews';
   render(){
         var news = [
       {
+          id:1,
           title  : "FORD MUSTANG ",
           description :"Daha benzersiz, daha yüksek performansa sahip ve daha yenilikçi Yeni Mustang deneyimine hazır olun. Çünkü efsane şimdi bir başka."
       },
       {
-        title : "LAMBORGHINI URUS",
-        description:"Lamborghini Urus is the first Super Sport Utility Vehicle in the world to merge the soul of a super sports car with the functionality of an SUV. Powered by a 4.0-liter twin-turbo V8 engine producing 650 CV and 850 Nm of torque, Urus accelerates from 0 to 62 mph in 3.6 seconds and reaches a top speed of 190 mph. The design, performance, driving dynamics and driving emotion flow effortlessly into this visionary approach to Lamborghini DNA."
+          id:2,
+          title : "LAMBORGHINI URUS",
+          description:"Lamborghini Urus is the first Super Sport Utility Vehicle in the world to merge the soul of a super sports car with the functionality of an SUV. Powered by a 4.0-liter twin-turbo V8 engine producing 650 CV and 850 Nm of torque, Urus accelerates from 0 to 62 mph in 3.6 seconds and reaches a top speed of 190 mph. The design, performance, driving dynamics and driving emotion flow effortlessly into this visionary approach to Lamborghini DNA."
       },
       {
-        title : "PORSCHE",
-        description:"Bu alıntı, Porsche'yi Porsche yapan her şeyin kalbine ulaşır. Bir marka olarak, bir firma olarak ve bir otomobil üreticisi olarak. 65 yıldan uzun süredir, bize yol gösteren yıldızımız oldu. Çalışmalarımızın ve araçlarımızın karakterini belirleyen tüm değerleri kapsar. Bu nedenle, bunu en iyi açıklayabilecek kişinin, Porsche adını taşıyan ilk spor otomobilin yaratıcısından başkası olamayacağına şaşırmaya gerek yok: Ferdinand Anton Ernst – veya kısaca, Ferry "
+          id:3,
+          title : "PORSCHE",
+          description:"Bu alıntı, Porsche'yi Porsche yapan her şeyin kalbine ulaşır. Bir marka olarak, bir firma olarak ve bir otomobil üreticisi olarak. 65 yıldan uzun süredir, bize yol gösteren yıldızımız oldu. Çalışmalarımızın ve araçlarımızın karakterini belirleyen tüm değerleri kapsar. Bu nedenle, bunu en iyi açıklayabilecek kişinin, Porsche adını taşıyan ilk spor otomobilin yaratıcısından başkası olamayacağına şaşırmaya gerek yok: Ferdinand Anton Ernst – veya kısaca, Ferry "
       }
       
       ];
